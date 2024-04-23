@@ -44,14 +44,14 @@ for (int i = 0; i <10; i++)
 {
     if (vetor[i] % 2 == 0)
     {
+        pares[c1] = vetor[i];
         c1 ++;
-        pares[c1 - 1] = vetor[i];
 
     }
     else
     {
+        impares[c2] = vetor[i];
         c2++;
-        impares[c2 - 1] = vetor[i];
     }
 }
 Console.WriteLine("Vetor pares");
